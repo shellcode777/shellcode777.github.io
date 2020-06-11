@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "shellcode777's 2nd Memory Unit"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "쉘코드777"
+name                     : "shellcode777"
 description              : "보조기억장치."
 url                      : "https://shellcode777.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -93,10 +93,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "쉘코드777 보조기억장치"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "배웠으면 기록해야 써먹지ㅎㅎ.."
+  location         : "South Korea"
   email            :
   links:
     - label: "Email"
