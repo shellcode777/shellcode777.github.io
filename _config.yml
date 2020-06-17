@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" #"default", "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "shellcode777's 2nd Memory Unit"
+title                    : "2nd Memory Unit"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "shellcode777"
@@ -93,9 +93,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "쉘코드777 보조기억장치"
+  name             : "보조기억장치"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "배웠으면 기록해야 써먹지ㅎㅎ.."
+  bio              : "배웠으면 기록해야 써먹지"
   location         : "South Korea"
   email            :
   links:
