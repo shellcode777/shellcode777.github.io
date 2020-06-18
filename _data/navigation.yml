@@ -12,3 +12,5 @@ main:
   #   url: /sitemap/
     - title: "TEST navigation"
       url: https://www.naver.com/
+    - title: "Daum"
+      url: https://www.daum.net/
