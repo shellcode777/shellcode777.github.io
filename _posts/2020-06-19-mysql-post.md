@@ -2,7 +2,7 @@
 ## mysql 다운로드  
 - 다운로드 URL https://downloads.mysql.com/archives/community/
 
-![](2020-06-19-10-43-22.png)  
+![](https://drive.google.com/uc?export=view&id=1pmUGdQrvm590NR03J-fgs60JtoorH3x8)  
 zip 파일을 이용해 간편하게 설치  
 
 ```
