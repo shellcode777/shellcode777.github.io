@@ -96,7 +96,7 @@ author:
   name             : "보조기억장치"
   avatar           : "/assets/images/charmender.JPG"
   bio              : "배웠으면 기록해야 써먹지"
-  location         : "South Korea"
+  location         : #"South Korea"
   email            :
   links:
     - label: "Email"
@@ -248,6 +248,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+infosecu_archive:
+  type: liquid
+  path: /infosecu/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -277,10 +280,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
-      related: true
+      related: false
       sidebar:
         nav: "docs"
   # _pages

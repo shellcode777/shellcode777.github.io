@@ -19,4 +19,4 @@ docs:
     - title: Information Security
       children:
         - title: "System Security"
-          url: /404.html
+          url: infosecu/system/
