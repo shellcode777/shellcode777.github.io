@@ -15,8 +15,37 @@ main:
     - title: "Daum"
       url: https://www.daum.com
 
-docs:
-    - title: Information Security
+side_nav:
+    - title: "정보보안 기사"
       children:
         - title: "System Security"
-          url: infosecu/system/
+          url: /infosecu/system/
+        - title: "Network Security"
+          url: /infosecu/net/
+        - title: "Application Security"
+          url: /infosecu/app/
+        - title: "Info Security General"
+          url: /infosecu/general/
+        - title: "Management & Law"
+          url: /infosecu/mgmtlaw/
+
+    - title: "Information Technology"
+      children:
+        - title: "Database"
+          url: /it/db/
+        - title: "Information Security"
+          url: /it/secu/
+        - title: "Cloud service"
+          url: /it/cloud/
+
+    - title: "MY Side Project"
+      children: 
+        - title: Python
+          url: /sdpjt/python/
+        - title: Development
+          url: /sdpjt/osdev/
+        - title: oost cource
+          url: /sdpjt/boost/
+        - title: Language Go
+          url: /sdpjt/langgo/
+
