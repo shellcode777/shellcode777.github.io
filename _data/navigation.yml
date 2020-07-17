@@ -14,9 +14,11 @@ main:
       url: https://www.naver.com/
     - title: "Daum"
       url: https://www.daum.com
-
 side_nav:
+    - title: "INTRO"
+      url: /intro/
     - title: "정보보안 기사"
+      #url: /infosecu/
       children:
         - title: "System Security"
           url: /infosecu/system/
@@ -30,6 +32,7 @@ side_nav:
           url: /infosecu/mgmtlaw/
 
     - title: "Information Technology"
+      #url: /it/
       children:
         - title: "Database"
           url: /it/db/
@@ -39,12 +42,17 @@ side_nav:
           url: /it/cloud/
 
     - title: "MY Side Project"
+      #url: /sdpjt/
       children: 
         - title: Python
           url: /sdpjt/python/
         - title: Development
-          url: /sdpjt/osdev/
-        - title: oost cource
+          url: /sdpjt/dev/
+        - title: Boost cource
           url: /sdpjt/boost/
         - title: Language Go
           url: /sdpjt/langgo/
+        - title: Git Blog
+          url: /sdpjt/gitblog
+    - title: "모든 포스트"
+      url: /categories/

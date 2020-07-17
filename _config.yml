@@ -118,9 +118,6 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
-sidebar:
-  nav: "docs"
-
 # Site Footer
 footer:
   links:
@@ -251,6 +248,13 @@ tag_archive:
 infosecu_archive:
   type: liquid
   path: /infosecu/
+it_archive:
+  type: liquid
+  path: /it/
+sdpjt_archive:
+  type: liquid
+  path: /sdpjt/
+
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -262,6 +266,12 @@ infosecu_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
+
+# Collection
+collections:
+  intro:
+    output: true
+    permalink: /:collection/:path/
 
 
 # HTML Compression
@@ -299,4 +309,13 @@ defaults:
       related: false
       sidebar:
         nav: "side_nav"
-
+  # _intro
+  - scope:
+      path: ""
+      type: intro
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      sidebar:
+        nav: "side_nav"
