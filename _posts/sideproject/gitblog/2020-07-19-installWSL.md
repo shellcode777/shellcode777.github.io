@@ -1,10 +1,10 @@
 ---
-title: "WSL 설치 및 리눅스 설치"
+title: "리눅스용 Windows 하위 시스템 설치  "
 excerpt: WSL 설치를 위한 옵션 변경 및 리눅스 설치
 categories:
  - gitblog
 ---
-# 리눅스용 Windows 하위 시스템 설치  
+  
 ## 리눅스용 Windows 하위 시스템 옵션 기능을 사용으로 변경  
 - 제어판 > 프로그램 및 기능 > Windows 기능 켜기/끄기  
 - Linux용 Windows 하위 시스템 체크 > 확인  

@@ -1,10 +1,10 @@
 ---
-title: "GitHubs Pages 블로그 만들기"
+title: "WSL와 Github Pages 블로그"
 excerpt: "WSL와 GitHub Pages"
 categories:
  - gitblog
 ---
-# WSL와 Github Pages 블로그
+
 ## WSL란?  
 - 리눅스용 윈도우즈 하위 시스템으로 가성머신이나 듀얼 부팅 설정 없이 대부분의 도구, 유틸리티 및 애플리케이션과 리눅스 환경을 수정하지 않고 윈도우에서 직접 실행할 수 있는 기능  
 - 새롭게 WSL 2 버전까지 배포되어 파일 시스템 성능 향상과 시스템 호출 호환성이 개선 되었습니다.    
