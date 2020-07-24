@@ -12,7 +12,7 @@ categories:
 ![]({{site.url}}/assets/images/gitblog/10_create_repo2.PNG)  
 
 ## Repository에 샘플 블로그 업로드
-- 생성된 Repository에 샘플 블로그를 업로드한다. git init으로 저장소에 필요한 기본파일을 `.git` 이라는 하위 디렉토리를 만들고 계정의 Repository를 등록한다.
+- 생성된 Repository에 샘플 블로그를 업로드한다. `git init`으로 저장소에 필요한 기본파일을 `.git` 이라는 하위 디렉토리를 만들고 계정의 Repository를 등록한다.
 - 생성된 본인의 Repository의 url를 복사하고 `git remote add` 명령어를 이용해서 원격저장소에 연결하고 `git push`로 업로드 한다.  
 ![]({{site.url}}/assets/images/gitblog/10_gitclone.PNG) 
 ```
