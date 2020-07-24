@@ -43,7 +43,7 @@ jekyll serve
 ```
 ![]({{site.url}}/assets/images/gitblog/11_localhosting.PNG)
 
-- clone한 minimal-mistakes의 origin을 제거하고 본인 계정의 repository로 변경하고 push로 업로드 한다.
+- clone한 minimal-mistakes의 `remote origin`을 본인 계정의 repository로 변경하고 `git push`로 업로드 한다.
 ```
 git remote remove
 git remote add origin https://github.com/shellcode777/myid.github.io.git
