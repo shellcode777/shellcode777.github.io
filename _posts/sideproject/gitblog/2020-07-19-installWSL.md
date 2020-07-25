@@ -1,5 +1,5 @@
 ---
-title: "리눅스용 Windows 하위 시스템 설치  "
+title: "(1) 리눅스용 Windows 하위 시스템 설치  "
 excerpt: WSL 설치를 위한 옵션 변경 및 리눅스 설치
 categories:
  - gitblog

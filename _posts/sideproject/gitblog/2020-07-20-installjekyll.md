@@ -1,5 +1,5 @@
 ---
-title: "정적 웹 호스팅 도구 jekyll 설치"
+title: "(2) 정적 웹 호스팅 도구 jekyll 설치"
 excerpt: 패키지 관리 툴 업데이트 및 ruby와 jekyll 설치
 categories:
  - gitblog
@@ -11,9 +11,9 @@ categories:
 sudo apt-get upgrade
 sudo apt-get update
 sudo apt-get upgrade -y && update -y
-//sudo는 root 권한으로 실행 
-//-y 옵션은 설치지 확인사항을 모두 Y로
-// and, 즉 &&연산자를 이용하여 명령어 한 줄로 실행
+#sudo는 root 권한으로 실행 
+#-y 옵션은 설치지 확인사항을 모두 Y로
+# and, 즉 &&연산자를 이용하여 명령어 한 줄로 실행
 ~~~
 ![]({{site.url}}/assets/images/gitblog/4_apt-get_update_upgrade.PNG)  
 
@@ -38,5 +38,5 @@ source ~/.bashrc
 ~~~
 gem install jekyll bundler
 ~~~
-![]({{site.url}}/assets/images/gitblog/7_jekyll install.PNG)
+![]({{site.url}}/assets/images/gitblog/7_jekyllinstall.PNG)
 ###### ref. https://jekyllrb.com/docs/installation/ubuntu/

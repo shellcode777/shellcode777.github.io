@@ -1,5 +1,5 @@
 ---
-title: "jekyll 블로그 생성과 github로 호스팅"
+title: "(3) jekyll 블로그 생성과 github로 호스팅"
 excerpt: 설치한 jekyll로 블로그를 생성하고 github로 호스팅 하자
 categories:
  - gitblog

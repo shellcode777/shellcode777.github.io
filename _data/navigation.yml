@@ -18,7 +18,7 @@ side_nav:
     - title: "INTRO"
       url: /intro/
     - title: "정보보안 기사"
-      #url: /infosecu/
+      url: /about/
       children:
         - title: "System Security"
           url: /infosecu/system/

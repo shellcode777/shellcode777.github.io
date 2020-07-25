@@ -1,11 +1,17 @@
 ---
-title: "minimal-mistakes 테마 블로그"
+title: "(4) minimal-mistakes 테마 블로그"
 excerpt: "jekyll 테마 중 하나인 minimal-mistakes 블로그 생성과 커스터마이징"
 categories:
 - gitblog
 ---
 ## Github Repository 생성
 - 버전 관리도구 git을 설치하고 프로젝트를 웹호스팅 하는 github를 이용해서 블로그를 호스팅한다.
+```
+sudo apt-get install git
+#WSL에 git 설치
+git --version
+#설치 후 정상설치 여부 확인 (설치 된 git version확인)
+```
 - github 계정이 없다면 회원가입을 하고 메인화면 오른쪽 상단의 new 버튼을 눌러서 호스팅할 블로그의 Repository를 생성한다.
 - Repository이름은 본인의 아이디 즉, `{id}.github.io`로 해야 추후에 정상적으로 웹 호스팅이 된다.
 ![]({{site.url}}/assets/images/gitblog/10_create_repo.PNG)
@@ -26,7 +32,7 @@ git push -u origin master
 ![]({{site.url}}/assets/images/gitblog/10_gitpush1.PNG)
 ![]({{site.url}}/assets/images/gitblog/10_gitpush2.PNG)
 
-- 모두 완료되면 {id}.github.io로 접근해서 호스팅이 정상적으로 되는지 확인해본다.
+- 모두 완료되면 `{id}.github.io`로 접근해서 호스팅이 정상적으로 되는지 확인해본다.
 
 ## jekyll 테마 블로그 생성
 - jekyll에서 제공하는 테마들 [http://jekyllthemes.org/](http://jekyllthemes.org/){: target="_blank"}
@@ -48,8 +54,8 @@ jekyll serve
 git remote remove
 git remote add origin https://github.com/shellcode777/myid.github.io.git
 git push origin master
-//에러발생시
+#에러발생시
 git push -u origin +master
-//github id,pw 입력
+#sgithub id,pw 입력
 ```
 - 본인 계정의 url `{id}.github.io`로 이동하여 블로그가 호스팅 되는지 확인해본다.

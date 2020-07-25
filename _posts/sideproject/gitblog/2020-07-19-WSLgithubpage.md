@@ -1,5 +1,5 @@
 ---
-title: "WSL와 Github Pages 블로그"
+title: "(시작) WSL와 Github Pages 블로그"
 excerpt: "WSL와 GitHub Pages"
 categories:
  - gitblog
