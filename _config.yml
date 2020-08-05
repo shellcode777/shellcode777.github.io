@@ -294,19 +294,6 @@ defaults:
       related: false
       sidebar:
         nav: "side_nav"
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: false
-      sidebar:
-        nav: "side_nav"
   # _intro
   - scope:
       path: ""
@@ -317,3 +304,16 @@ defaults:
       share: true
       sidebar:
         nav: "side_nav"
+  # # _pages
+  # - scope:
+  #     path: ""
+  #     type: pages
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: false
+  #     comments: false
+  #     share: true
+  #     related: false
+  #     sidebar:
+  #       nav: "side_nav"

@@ -8,8 +8,8 @@ categories:
 ## 리눅스용 Windows 하위 시스템 옵션 기능을 사용으로 변경  
 - 제어판 > 프로그램 및 기능 > Windows 기능 켜기/끄기  
 - Linux용 Windows 하위 시스템 체크 > 확인  
+- 또는 Powershell 관리자 권한 실행 후 명령어 입력  
 ![]({{site.url}}/assets/images/gitblog/1_win10function.PNG)  
-- 뭘 좀 할줄아는 티를 내고 싶으면 Powershell 관리자 권한 실행 후 입력  
 ```
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```  
@@ -17,7 +17,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ## 가상머신 플랫폼 기능 사용으로 변경
 - 가상머신 플랫폼 체크 > 확인
 ![]({{site.url}}/assets/images/gitblog/1_win10function3.PNG)  
-- 마찬가지로 Powershell 관리자 권한 실행 후 입력
+- 또는 Powershell 관리자 권한 실행 후 명령어 입력
 ~~~
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ~~~

@@ -1,5 +1,5 @@
 # main links
-main:
+#main:
   # - title: "Quick-Start Guide"
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
@@ -10,6 +10,7 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+main:
     - title: "TEST navigation"
       url: https://www.naver.com/
     - title: "Daum"
@@ -32,7 +33,7 @@ side_nav:
           url: /infosecu/mgmtlaw/
 
     - title: "Information Technology"
-      #url: /it/
+      url: /it/
       children:
         - title: "Database"
           url: /it/db/
