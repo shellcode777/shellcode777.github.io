@@ -10,7 +10,7 @@ categories:
 ~~~
 sudo apt-get upgrade
 sudo apt-get update
-sudo apt-get upgrade -y && update -y
+sudo apt-get upgrade -y && sudo apt-get update -y
 #sudo는 root 권한으로 실행 
 #-y 옵션은 설치지 확인사항을 모두 Y로
 # and, 즉 &&연산자를 이용하여 명령어 한 줄로 실행

@@ -25,7 +25,7 @@ git --version
 git init
 git add.
 git commit -m '<commit에 대한 설명>'
- git remote add origin https://github.com/shellcode777/myid.github.io.git
+git remote add origin https://github.com/shellcode777/myid.github.io.git
 git push -u origin master
 //github id,pw 입력
 ```
@@ -51,7 +51,7 @@ jekyll serve
 
 - clone한 minimal-mistakes의 `remote origin`을 본인 계정의 repository로 변경하고 `git push`로 업로드 한다.
 ```
-git remote remove
+git remote remove origin
 git remote add origin https://github.com/shellcode777/myid.github.io.git
 git push origin master
 #에러발생시
