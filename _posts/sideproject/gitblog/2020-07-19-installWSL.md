@@ -7,12 +7,13 @@ categories:
   
 ## 리눅스용 Windows 하위 시스템 옵션 기능을 사용으로 변경  
 - 제어판 > 프로그램 및 기능 > Windows 기능 켜기/끄기  
-- Linux용 Windows 하위 시스템 체크 > 확인  
-- 또는 Powershell 관리자 권한 실행 후 명령어 입력  
+- Linux용 Windows 하위 시스템 체크 > 확인   
 ![]({{site.url}}/assets/images/gitblog/1_win10function.PNG)  
+- 또는 Powershell 관리자 권한 실행 후 명령어 입력  
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```  
+- 모든 설치가 끝나면 재부팅  
 ![]({{site.url}}/assets/images/gitblog/1_win10function2.PNG)
 ## 가상머신 플랫폼 기능 사용으로 변경
 - 가상머신 플랫폼 체크 > 확인
@@ -20,7 +21,8 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 - 또는 Powershell 관리자 권한 실행 후 명령어 입력
 ~~~
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-~~~
+~~~  
+- 모든 설치가 끝나면 재부팅
 - 기본 버전을 WSL 2로 지정할 경우 powershell에서 명령어 입력
 ```
 wsl --set-default-version 2  
@@ -31,7 +33,7 @@ wsl --set-default-version 2
 ![]({{site.url}}/assets/images/gitblog/2_win10ubuntu_1.PNG)      
 - 설치가 완료 되면 bash 명령어를 입력해서 리눅스 실행  
 - 콘솔창이 열리면 자동으로 설치가 된다.
-- 설치가 완료되면 계정정보를 입력하면 끝
+- 설치가 완료되고 계정정보를 입력하면 끝
 ![]({{site.url}}/assets/images/gitblog/3_win10bash_shell.PNG) 
 ![]({{site.url}}/assets/images/gitblog/2_win10ubuntu2.PNG) 
 ![]({{site.url}}/assets/images/gitblog/3_win10bash_shell_1.PNG)  
