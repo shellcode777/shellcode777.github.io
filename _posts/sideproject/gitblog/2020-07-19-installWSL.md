@@ -11,7 +11,7 @@ categories:
 - 또는 Powershell 관리자 권한 실행 후 명령어 입력  
 ![]({{site.url}}/assets/images/gitblog/1_win10function.PNG)  
 ```
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```  
 ![]({{site.url}}/assets/images/gitblog/1_win10function2.PNG)
 ## 가상머신 플랫폼 기능 사용으로 변경
@@ -21,7 +21,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ~~~
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ~~~
-- 기본 버전을 WSL 2로 지정할 경우 명령어 입력
+- 기본 버전을 WSL 2로 지정할 경우 powershell에서 명령어 입력
 ```
 wsl --set-default-version 2  
 ```  
@@ -34,7 +34,8 @@ wsl --set-default-version 2
 - 설치가 완료되면 계정정보를 입력하면 끝
 ![]({{site.url}}/assets/images/gitblog/3_win10bash_shell.PNG) 
 ![]({{site.url}}/assets/images/gitblog/2_win10ubuntu2.PNG) 
-![]({{site.url}}/assets/images/gitblog/3_win10bash_shell_1.PNG) 
+![]({{site.url}}/assets/images/gitblog/3_win10bash_shell_1.PNG)  
+
 ## 마운트가 안되어 있을 경우 해결방법  
 - 파일시스템 중 하나를 탑재하는 중 오류가 발생했습니다. 라는 오류와 함께 /mnt/c 디렉토리가 비어 있을 경우
 ```
