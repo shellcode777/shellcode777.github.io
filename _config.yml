@@ -245,15 +245,15 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-infosecu_archive:
-  type: liquid
-  path: /infosecu/
-it_archive:
-  type: liquid
-  path: /it/
-sdpjt_archive:
-  type: liquid
-  path: /sdpjt/
+# infosecu_archive:
+#   type: liquid
+#   path: /infosecu/
+# it_archive:
+#   type: liquid
+#   path: /it/
+# sdpjt_archive:
+#   type: liquid
+#   path: /sdpjt/
 
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
