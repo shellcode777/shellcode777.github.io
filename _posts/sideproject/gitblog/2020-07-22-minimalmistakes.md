@@ -1,5 +1,5 @@
 ---
-title: "[깃허브 블로그](4) minimal-mistakes 테마 블로그"
+title: "깃허브 블로그(4) minimal-mistakes 테마 블로그"
 excerpt: "jekyll 테마 중 하나인 minimal-mistakes 블로그 생성과 커스터마이징"
 categories:
 - gitblog

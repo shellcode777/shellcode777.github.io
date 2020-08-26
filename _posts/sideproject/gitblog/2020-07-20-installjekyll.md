@@ -1,5 +1,5 @@
 ---
-title: "[깃허브 블로그](2) 정적 웹 호스팅 도구 jekyll 설치"
+title: "깃허브 블로그(2) 정적 웹 호스팅 도구 jekyll 설치"
 excerpt: 패키지 관리 툴 업데이트 및 ruby와 jekyll 설치
 categories:
  - gitblog
