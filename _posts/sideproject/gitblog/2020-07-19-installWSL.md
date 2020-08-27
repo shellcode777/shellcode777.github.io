@@ -22,7 +22,10 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 ~~~
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ~~~  
-- 모든 설치가 끝나면 재부팅
+- 모든 설치가 끝나면 재부팅  
+ ## WSL2 Linux 커널 업데이트 패키지 다운로드  
+- [https://aka.ms/wsl2kernel](https://aka.ms/wsl2kernel){: target="_blank"} 해당 페이지에서 리눅스 커널 업데이트 다운로드 후 설치  
+![]({{site.url}}/assets/images/gitblog/1_win10function3.PNG)
 - 기본 버전을 WSL 2로 지정할 경우 powershell에서 명령어 입력
 ```
 wsl --set-default-version 2  
