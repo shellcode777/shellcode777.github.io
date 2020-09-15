@@ -38,6 +38,6 @@ categories: db
 - `root`계정 접속 후 아래와 같이 입력하여 비밀번호를 변경한다.    
 
 ~~~sql
-alter user 'root'@'localhost' identified by 'yourpassword'
+alter user 'root'@'localhost' identified by 'yourpassword';
 ~~~  
 - `exit`로 데이터베이스를 종료하고 다시 접속하여 패스워드가 등록됐는지 확인해본다.
