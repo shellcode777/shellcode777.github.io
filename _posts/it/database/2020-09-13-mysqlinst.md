@@ -7,7 +7,6 @@ categories: db
 ### MySQL 아카이브 버전 다운로드  
 
 - [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/){: target="_blank"} 해당 URL에서 Archives 선택  
-  
 > ![]({{site.url}}/assets/images/mysqlinst/image1.png)  
   
 - 원하는 버전을 선택한 후 ZIP Archive 다운로드  
@@ -26,6 +25,8 @@ categories: db
 
 > 명령어 입력 과정에서 아래와 같은 에러가 날 경우  
 > ![]({{site.url}}/assets/images/mysqlinst/image5-1.png)  
+> [VCRUNTIME140_1.DLL 다운로드](https://www.dll-files.com/download/2f74f7bbf256d0acb305068a6960ea5a/vcruntime140_1.dll.html?c=WktDTVFLUjRvVGlzR1lrM3h5d2JFQT09){: target="_blank"}  
+> 받은 파일을 압축해제 하고 `.dll` 파일을 `C:\windows\system32` 경로에 넣어준다.
 
 ### mysql 서비스 등록 및 시작
 - 명령프롬프트에서 `mysqld --install` 명령어 입력 후 성공하면 `Service successfully installed` 메시지가 나온다.  
