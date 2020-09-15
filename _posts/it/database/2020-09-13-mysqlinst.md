@@ -5,6 +5,7 @@ categories: db
 ---
 
 ### MySQL 아카이브 버전 다운로드  
+    
 > [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/){: target="_blank"} 해당 URL에서 Archives 선택  
 > ![]({{site.url}}/assets/images/mysqlinst/image1.png)  
   
