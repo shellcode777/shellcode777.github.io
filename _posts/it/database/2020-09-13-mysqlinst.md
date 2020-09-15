@@ -5,8 +5,9 @@ categories: db
 ---
 
 ### MySQL 아카이브 버전 다운로드  
-    
-> [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/){: target="_blank"} 해당 URL에서 Archives 선택  
+
+- [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/){: target="_blank"} 해당 URL에서 Archives 선택  
+  
 > ![]({{site.url}}/assets/images/mysqlinst/image1.png)  
   
 - 원하는 버전을 선택한 후 ZIP Archive 다운로드  
@@ -22,7 +23,10 @@ categories: db
 - 관리자 모드로 명령프롬프트에서 `mysqld --initialized-insecure` 명령어 입력
 > ![]({{site.url}}/assets/images/mysqlinst/image5.png)  
 > `data` 디렉토리가 생성되고 디렉토리 내부에 설정 파일 등이 생성된다.  
-  
+
+> 명령어 입력 과정에서 아래와 같은 에러가 날 경우  
+> ![]({{site.url}}/assets/images/mysqlinst/image5-1.png)  
+
 ### mysql 서비스 등록 및 시작
 - 명령프롬프트에서 `mysqld --install` 명령어 입력 후 성공하면 `Service successfully installed` 메시지가 나온다.  
 - 명령프롬프트에서 `net start mysql` 명령어를 입력해서 서비스를 실행한다.  
