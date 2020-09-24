@@ -14,13 +14,13 @@ git --version
 ```
 - github 계정이 없다면 회원가입을 하고 메인화면 오른쪽 상단의 new 버튼을 눌러서 호스팅할 블로그의 Repository를 생성한다.
 - Repository이름은 본인의 아이디 즉, `{id}.github.io`로 해야 추후에 정상적으로 웹 호스팅이 된다.
-![]({{site.url}}/assets/images/gitblog/10_create_repo.PNG)
-![]({{site.url}}/assets/images/gitblog/10_create_repo2.PNG)  
+[![]({{site.url}}/assets/images/gitblog/10_create_repo.png)]({{site.url}}/assets/images/gitblog/10_create_repo.png)
+[![]({{site.url}}/assets/images/gitblog/10_create_repo2.png)]({{site.url}}/assets/images/gitblog/10_create_repo2.png)  
 
 ## Repository에 샘플 블로그 업로드
 - 생성된 Repository에 샘플 블로그를 업로드한다. `git init`으로 저장소에 필요한 기본파일을 `.git` 이라는 하위 디렉토리를 만들고 계정의 Repository를 등록한다.
 - 생성된 본인의 Repository의 url를 복사하고 `git remote add` 명령어를 이용해서 원격저장소에 연결하고 `git push`로 업로드 한다.  
-![]({{site.url}}/assets/images/gitblog/10_gitclone.PNG) 
+[![]({{site.url}}/assets/images/gitblog/10_gitclone.png)]({{site.url}}/assets/images/gitblog/10_gitclone.png) 
 ```
 git init
 git add.
@@ -29,8 +29,8 @@ git remote add origin https://github.com/shellcode777/myid.github.io.git
 git push -u origin master
 //github id,pw 입력
 ```
-![]({{site.url}}/assets/images/gitblog/10_gitpush1.PNG)
-![]({{site.url}}/assets/images/gitblog/10_gitpush2.PNG)
+[![]({{site.url}}/assets/images/gitblog/10_gitpush1.png)]({{site.url}}/assets/images/gitblog/10_gitpush1.png)
+[![]({{site.url}}/assets/images/gitblog/10_gitpush2.png)]({{site.url}}/assets/images/gitblog/10_gitpush2.png)
 
 - 모두 완료되면 `{id}.github.io`로 접근해서 호스팅이 정상적으로 되는지 확인해본다.
 
@@ -47,7 +47,7 @@ mv minimal-mistakes myid.github.io
 bundle
 jekyll serve
 ```
-![]({{site.url}}/assets/images/gitblog/11_localhosting.PNG)
+[![]({{site.url}}/assets/images/gitblog/11_localhosting.png)]({{site.url}}/assets/images/gitblog/11_localhosting.png)
 
 - clone한 minimal-mistakes의 `remote origin`을 본인 계정의 repository로 변경하고 `git push`로 업로드 한다.
 ```

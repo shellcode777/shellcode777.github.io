@@ -48,7 +48,7 @@ Point. 01 USB 실시간 탐지의 의미
 Point. 02 USB 실시간 탐지 시스템 구조
 -------------------------------------  
  
-> ![]({{site.url}}/assets/images/usbdetect/image3.png)  
+> [![]({{site.url}}/assets/images/usbdetect/image3.png)]({{site.url}}/assets/images/usbdetect/image3.png)  
 > \[그림\] 소프트웨어 아키텍처 도식화
 
 - USB 제어 개발 프로그램  
@@ -77,7 +77,7 @@ Point 01. USB Detection
 -----------------------
 
 -   WM_DEVICECHANGE Message를 탐지하여 USB 삽입 및 제거 여부를 식별한다.
-> ![]({{site.url}}/assets/images/usbdetect/image4.png)
+> [![]({{site.url}}/assets/images/usbdetect/image4.png)]({{site.url}}/assets/images/usbdetect/image4.png)
 > \[그림\] 처리 흐름도  
 
 ```cpp
@@ -233,26 +233,26 @@ Point 01. USB 탐지기 테스트
 ---------------------------
 
 
-> ![]({{site.url}}/assets/images/usbdetect/image5.jpeg)  
-> ![]({{site.url}}/assets/images/usbdetect/image6.jpeg)  
+> [![]({{site.url}}/assets/images/usbdetect/image5.jpeg)]({{site.url}}/assets/images/usbdetect/image5.jpeg)  
+> [![]({{site.url}}/assets/images/usbdetect/image6.jpeg)]({{site.url}}/assets/images/usbdetect/image6.jpeg)  
 > 실제 사용하는 USB를 활용하여 프로그램 동작 테스트  
 
 Point 02. Client
 ----------------
 
-> ![]({{site.url}}/assets/images/usbdetect/image7.png)  
+> [![]({{site.url}}/assets/images/usbdetect/image7.png)]({{site.url}}/assets/images/usbdetect/image7.png)  
 > 클라이언트 usb 정보 출력
 
 Point 03. Server
 ----------------
 
->![]({{site.url}}/assets/images/usbdetect/image8.png)  
+> [![]({{site.url}}/assets/images/usbdetect/image8.png)]({{site.url}}/assets/images/usbdetect/image8.png)  
 > 서버는 수신된 정보를 출력한다.
 
-> ![]({{site.url}}/assets/images/usbdetect/image9.png)  
+> [![]({{site.url}}/assets/images/usbdetect/image9.png)]({{site.url}}/assets/images/usbdetect/image9.png)  
 > AWS EC2 우분투 서버 정보
 
-> ![]({{site.url}}/assets/images/usbdetect/image10.png)  
+> [![]({{site.url}}/assets/images/usbdetect/image10.png)]({{site.url}}/assets/images/usbdetect/image10.png)  
 > 클라이언트와 클라우드 환경 서버간 usb 정보 송수신 테스트
 
 CHAPTER. 04 실시간 USB 탐지 솔루션 개선 방안

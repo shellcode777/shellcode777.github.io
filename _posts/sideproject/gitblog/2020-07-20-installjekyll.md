@@ -15,7 +15,7 @@ sudo apt-get upgrade -y && sudo apt-get update -y
 #-y 옵션은 설치지 확인사항을 모두 Y로
 # and, 즉 &&연산자를 이용하여 명령어 한 줄로 실행
 ~~~
-![]({{site.url}}/assets/images/gitblog/4_apt-get_update_upgrade.PNG)  
+[![]({{site.url}}/assets/images/gitblog/4_apt-get_update_upgrade.png)]({{site.url}}/assets/images/gitblog/4_apt-get_update_upgrade.png)  
 
 ## 루비 설치
 - 루비는 유키히로 마츠모토가 만든 스크립트 언어의 일종이자 객체지향 언어, 명령형 프로그래밍 언어, 함수형 언어이다
@@ -38,5 +38,5 @@ source ~/.bashrc
 ~~~
 gem install jekyll bundler
 ~~~
-![]({{site.url}}/assets/images/gitblog/7_jekyllinstall.PNG)
+[![]({{site.url}}/assets/images/gitblog/7_jekyllinstall.png)]({{site.url}}/assets/images/gitblog/7_jekyllinstall.png)
 ###### ref. https://jekyllrb.com/docs/installation/ubuntu/

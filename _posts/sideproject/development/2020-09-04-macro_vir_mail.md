@@ -20,7 +20,7 @@ Point. 01 TCP/IP
 
 -   netstat 명령어로 TCP 프로토콜의 활성 상태를 확인 할 수 있다.
 
-> ![]({{site.url}}/assets/images/mail/image2.png)  
+> [![]({{site.url}}/assets/images/mail/image2.png)]({{site.url}}/assets/images/mail/image2.png)  
 > \[그림\] netstat 명령어
 
 -   서버와 클라이언트 간에 연결이 완료 되면 ESTABLISHED 상태가 된다.
@@ -35,11 +35,11 @@ Point. 01 TCP/IP
 
 -   이때 서버는 Listen 상태로 응답을 기다린다.
 
-> ![]({{site.url}}/assets/images/mail/image3.png)  
+> [![]({{site.url}}/assets/images/mail/image3.png)]({{site.url}}/assets/images/mail/image3.png)  
 > \[그림\] 3-way handshaking  
 
 
-> ![]({{site.url}}/assets/images/mail/image4.png)  
+> [![]({{site.url}}/assets/images/mail/image4.png)]({{site.url}}/assets/images/mail/image4.png)  
 > \[그림\] localhost 서버와 클라이언트 간 3-way handshaking 동작 스니핑  
 
 
@@ -149,7 +149,7 @@ int client_socket;
 2.  리눅스 서버 리눅스 클라이언트 연결 테스트
 
 
-> ![]({{site.url}}/assets/images/mail/image5.png)  
+> [![]({{site.url}}/assets/images/mail/image5.png)]({{site.url}}/assets/images/mail/image5.png)  
 > \[그림\] 리눅스 서버와 클라이언트 연결, 무한루프를 돌려 연결종료 전까지 입력 값을 서버에서 받는다.
 
 3.  윈도우 클라이언트
@@ -216,7 +216,7 @@ WSACleanup();
 
 3.  리눅스 서버 윈도우 클라이언트 연결 테스트
 
-> ![]({{site.url}}/assets/images/mail/image6.png)  
+> [![]({{site.url}}/assets/images/mail/image6.png)]({{site.url}}/assets/images/mail/image6.png)  
 > \[그림\] 리눅스 서버와 윈도우 클라이언트 연결, send 함수에 포함된 문자열을 보낸 후 서버가 수신 후 출력 한다.  
 
 
@@ -236,8 +236,8 @@ point. 01개발 목적
 -   훈련을 통해 얻은 통계자료를 이용해 훈련결과 분석하고 이를 각 부서에
     전파하여 부족한 점을 개선 또는 교육을 통해 보안인식을 재고 시킨다.
 
-> ![]({{site.url}}/assets/images/mail/image7.png)  
-> ![]({{site.url}}/assets/images/mail/image8.png) 
+> [![]({{site.url}}/assets/images/mail/image7.png)]({{site.url}}/assets/images/mail/image7.png)  
+> [![]({{site.url}}/assets/images/mail/image8.png)]({{site.url}}/assets/images/mail/image8.png) 
 > \[그림\] 차트로 시각화 한 이메일을 통한 공격의 심각성  
 (출처 : 한국인터넷진흥원 2019년 2분기 사이버 위협 동향 보고서)
 
@@ -319,39 +319,39 @@ while(1){
 
 -   윈도우 운영체제의 위험을 초래 할 수 있는 기능 중의 하나
 
-> ![]({{site.url}}/assets/images/mail/image9.png) 
+> [![]({{site.url}}/assets/images/mail/image9.png)]({{site.url}}/assets/images/mail/image9.png) 
 > \[그림\] MS WORD에 내장된 매크로 기능을 이용해 악성코드를 만들 수 있다.  
 
 
-> ![]({{site.url}}/assets/images/mail/image10.png)  
+> [![]({{site.url}}/assets/images/mail/image10.png)]({{site.url}}/assets/images/mail/image10.png)  
 > 클라이언트 소켓을 생성하기 위한 라이브러리 호출
 
-> ![]({{site.url}}/assets/images/mail/image11.png)  
+> [![]({{site.url}}/assets/images/mail/image11.png)]({{site.url}}/assets/images/mail/image11.png)  
 > Const문을 이용해 상수를 선언하고 값을 설정한다.
 
-> ![]({{site.url}}/assets/images/mail/image12.png)  
+> [![]({{site.url}}/assets/images/mail/image12.png)]({{site.url}}/assets/images/mail/image12.png)  
 > 선언이 이루어진 모듈 내에서만 사용할 수 있는 사용자 정의 형식을 선언하는 데 사용  
 > WSADATA, SOCKADDR 형식 선언  
   
-> ![]({{site.url}}/assets/images/mail/image13.png)  
+> [![]({{site.url}}/assets/images/mail/image13.png)]({{site.url}}/assets/images/mail/image13.png)  
 > 문자열을 바이트로 변환하기 위한 기능 호출 Const문으로 문자열 인코딩 종류 호출
 
-> ![]({{site.url}}/assets/images/mail/image14.png)  
+> [![]({{site.url}}/assets/images/mail/image14.png)]({{site.url}}/assets/images/mail/image14.png)  
 > 문자열을 UTF8로 변환, 변수에 저장된 문자열을 UTF8로 변환하는 함수 선언
 
-> ![]({{site.url}}/assets/images/mail/image15.png)  
+> [![]({{site.url}}/assets/images/mail/image15.png)]({{site.url}}/assets/images/mail/image15.png)  
 > 주소 패밀리와 정보를 전송 할 호스트 IP 및 포트 지정  
 
 
-> ![]({{site.url}}/assets/images/mail/image16.png)  
-> ![]({{site.url}}/assets/images/mail/image17.png)  
+> [![]({{site.url}}/assets/images/mail/image16.png)]({{site.url}}/assets/images/mail/image16.png)  
+> [![]({{site.url}}/assets/images/mail/image17.png)]({{site.url}}/assets/images/mail/image17.png)  
 > Environ 함수를 이용해 클라이언트 컴퓨터이름 정보를 불러오고 인코딩 후 변수에 저장  
 > 컴퓨터 정보 저장 테이블 win32_computersystem의 작업그룹 정보 조회 및 변수에 저장  
 > 변수 내 문자열을 인코딩 한다.  
 > 인코딩 된 정보를 서버로 전송한다.  
 
-> ![]({{site.url}}/assets/images/mail/image18.png)  
-> ![]({{site.url}}/assets/images/mail/image19.png)  
+> [![]({{site.url}}/assets/images/mail/image18.png)]({{site.url}}/assets/images/mail/image18.png)  
+> [![]({{site.url}}/assets/images/mail/image19.png)]({{site.url}}/assets/images/mail/image19.png)  
 > macro_test라는 프로그램을 AutoOpen() 함수를 이용해 자동으로 실행 하도록 한다.  
 
 
@@ -369,5 +369,5 @@ point. 04훈련 서비스 실행 테스트
 
 -   수신 서버는 피해자 목록을 출력해서 확인한다.
 
-> ![]({{site.url}}/assets/images/mail/image20.png)  
+> [![]({{site.url}}/assets/images/mail/image20.png)]({{site.url}}/assets/images/mail/image20.png)  
 > \[그림\] 훈련 프로세스 도식화
