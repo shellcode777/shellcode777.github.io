@@ -1,6 +1,7 @@
 ---
 title: "네트워크보안"
-permalink: /infosecu/net/
-layout: category
+permalink: /net/
+layout: collection
+collection: net
 taxonomy: net
 ---

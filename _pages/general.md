@@ -1,6 +1,7 @@
 ---
 title: "정보보안 일반"
-permalink: /infosecu/general/
-layout: category
+permalink: /general/
+layout: collection
+collection: general
 taxonomy: general
 ---

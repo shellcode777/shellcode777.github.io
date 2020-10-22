@@ -19,41 +19,41 @@ side_nav:
     - title: "INTRO"
       url: /intro/
     - title: "정보보안 기사"
-      url: /about/
+      url: /infosecu/
       children:
         - title: "System Security"
-          url: /infosecu/system/
+          url: /system/
         - title: "Network Security"
-          url: /infosecu/net/
+          url: /net/
         - title: "Application Security"
-          url: /infosecu/app/
+          url: /app/
         - title: "Info Security General"
-          url: /infosecu/general/
+          url: /general/
         - title: "Management & Law"
-          url: /infosecu/mgmtlaw/
+          url: /mgmtlaw/
 
     - title: "Information Technology"
       url: /it/
       children:
         - title: "Database"
-          url: /it/db/
+          url: /db/
         - title: "Information Security"
-          url: /it/secu/
+          url: /secu/
         - title: "Cloud service"
-          url: /it/cloud/
+          url: /cloud/
 
     - title: "MY Side Project"
-      #url: /sdpjt/
+      url: /sdpjt/
       children: 
         - title: Python
-          url: /sdpjt/python/
+          url: /python/
         - title: Development
-          url: /sdpjt/dev/
+          url: /dev/
         - title: Boost cource
-          url: /sdpjt/boost/
+          url: /boost/
         - title: Language Go
-          url: /sdpjt/langgo/
+          url: /langgo/
         - title: Git Blog
-          url: /sdpjt/gitblog
+          url: /gitblog/
     - title: "모든 포스트"
       url: /categories/

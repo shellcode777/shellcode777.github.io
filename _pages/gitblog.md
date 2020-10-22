@@ -1,6 +1,7 @@
 ---
 title: "Github blog"
-permalink: /sdpjt/gitblog/
-layout: category
+permalink: /gitblog/
+layout: collection
+collection: gitblog
 taxonomy: gitblog
 ---

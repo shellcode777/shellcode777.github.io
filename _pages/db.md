@@ -1,6 +1,7 @@
 ---
 title: "DATABASE"
-permalink: /it/db/
-layout: category
+permalink: /db/
+layout: collection
+collection: db
 taxonomy: db
 ---

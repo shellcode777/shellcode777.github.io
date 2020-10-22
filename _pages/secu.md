@@ -1,6 +1,7 @@
 ---
 title: "Security"
-permalink: /it/secu/
-layout: category
+permalink: /secu/
+layout: collection
+collection: secu
 taxonomy: secu
 ---

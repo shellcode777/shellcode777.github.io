@@ -1,6 +1,7 @@
 ---
 title: "CLOUD SERVICE"
-permalink: /it/cloud/
-layout: category
+permalink: /cloud/
+layout: collection
+collection: cloud
 taxonomy: cloud
 ---

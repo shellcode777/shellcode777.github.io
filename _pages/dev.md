@@ -1,6 +1,7 @@
 ---
 title: "DEVELOPMENT"
-permalink: /sdpjt/dev/
-layout: category
+permalink: /dev/
+layout: collection
+collection: dev
 taxonomy: dev
 ---

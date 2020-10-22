@@ -268,9 +268,50 @@ tag_archive:
 #     tag: /tags/:name/
 
 # Collection
+collections_dir: doc
 collections:
   intro:
     output: true
+    permalink: /:collection/:path/
+  app:
+    output: true
+    permalink: /:collection/:path/
+  boost:
+    output: true
+    permalink: /:collection/:path/
+  cloud:
+    output: true
+    permalink: /:collection/:path/
+  db:
+    output: true
+    permalink: /:collection/:path/
+  dev:
+    output: true
+    permalink: /:collection/:path/
+  general:
+    output: true
+    permalink: /:collection/:path/
+  gitblog:
+    output: true
+    permalink: /:collection/:path/
+  langgo:
+    output: true
+    permalink: /:collection/:path/
+  mgmtlaw:
+    output: true
+    permalink: /:collection/:path/
+  net:
+    output: true
+    permalink: /:collection/:path/
+  python:
+    output: true
+    permalink: /:collection/:path/
+  secu:
+    output: true
+    permalink: /:collection/:path/
+  system:
+    output: true
+    permalink: /:collection/:path/
 
 # HTML Compression
 # - https://jch.penibelst.de/
@@ -315,5 +356,161 @@ defaults:
       comments: false
       share: true
       related: false
+      sidebar:
+        nav: "side_nav"
+  # _app
+  - scope:
+      path: ""
+      type: app
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "side_nav"
+  # _boost
+  - scope:
+      path: ""
+      type: boost
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "side_nav"
+  # _cloud
+  - scope:
+      path: ""
+      type: cloud
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "side_nav"
+  # _db
+  - scope:
+      path: ""
+      type: db
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "side_nav"
+  # _dev
+  - scope:
+      path: ""
+      type: dev
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "side_nav"
+  # _general
+  - scope:
+      path: ""
+      type: general
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "side_nav"
+  # _gitblog
+  - scope:
+      path: ""
+      type: gitblog
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "side_nav"
+  # _langgo
+  - scope:
+      path: ""
+      type: langgo
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "side_nav"
+  # _mgmtlaw
+  - scope:
+      path: ""
+      type: mgmtlaw
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "side_nav"
+  # _net
+  - scope:
+      path: ""
+      type: net
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "side_nav"
+  # _python
+  - scope:
+      path: ""
+      type: python
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "side_nav"
+  # _secu
+  - scope:
+      path: ""
+      type: secu
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "side_nav"
+  # _system
+  - scope:
+      path: ""
+      type: system
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      share: true
+      comments: false
       sidebar:
         nav: "side_nav"

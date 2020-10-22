@@ -1,6 +1,7 @@
 ---
 title: "부스트 코스"
-permalink: /sdpjt/boost/
-layout: category
+permalink: /boost/
+layout: collection
+collection: boost
 taxonomy: boost
 ---

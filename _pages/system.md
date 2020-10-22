@@ -1,6 +1,7 @@
 ---
 title: "시스템보안"
-permalink: /infosecu/system/
-layout: category
+permalink: /system/
+layout: collection
+collection: system
 taxonomy: system
 ---

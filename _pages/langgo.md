@@ -1,6 +1,7 @@
 ---
 title: "Language GO"
-permalink: /sdpjt/langgo/
-layout: category
+permalink: /langgo/
+layout: collection
+collection: langgo
 taxonomy: langgo
 ---
