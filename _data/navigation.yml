@@ -41,7 +41,8 @@ side_nav:
           url: /secu/
         - title: "Cloud service"
           url: /cloud/
-
+        - title: "Etc Tech"
+          url: /etc/
     - title: "MY Side Project"
       url: /sdpjt/
       children: 
